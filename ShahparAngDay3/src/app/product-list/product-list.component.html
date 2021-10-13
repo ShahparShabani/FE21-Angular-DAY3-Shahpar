@@ -1,0 +1,45 @@
+<!-- <h2>Products</h2>
+<div *ngFor="let product of products; index as productId ">
+    <h3>
+        <a routerLink="products/{{productId}}"> {{ product.name }} </a>
+    </h3>
+    <p *ngIf="product.description">Description: {{ product.description }}</p>
+</div> -->
+
+  <!-- Main container -->
+  <div id="main-container">
+    <div class="
+    my-row
+    container
+    bg-white
+    mt-md-5
+    mt-sm-3 mt-3
+    pb-md-4 pb-sm-3 pb-3
+  ">
+        <!-- .col- (extra small devices - screen width less than 576px)
+            .col-sm- (small devices - screen width equal to or greater than 576px)
+            .col-md- (medium devices - screen width equal to or greater than 768px)
+            .col-lg- (large devices - screen width equal to or greater than 992px)
+            .col-xl- (xlarge devices - screen width equal to or greater than 1200px) -->
+
+        <!-- Products -->
+        <h4 class="text-center">Pet Products</h4>
+        <div class="container mt-4 mb-4">
+            <div class="row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div *ngFor="let product of products; index as productId" class="col">
+                    <div class="card border mb-4">
+                        <img src="./img/starter-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title"> <a routerLink="products/{{productId}}"> {{ product.name }} </a></h3>
+                            <p *ngIf="product.description" class="card-text">Description: {{ product.description }}</p>
+                        </div>
+                        <div>
+                            <p class="card-text">${{ product.price }}</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

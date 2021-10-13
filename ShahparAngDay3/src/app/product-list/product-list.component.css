@@ -1,0 +1,109 @@
+/** Color Palette **/
+/* Basic colors*/
+/* gray */
+/* Yellow */
+/* Amber */
+/* Orange */
+#main-container .container {
+  color: #fff !important;
+  background-color: #343a40 !important;
+}
+
+#main-container .container .card {
+  color: #fff !important;
+  background-color: #212529 !important;
+}
+
+#main-container .container .card img {
+  height: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#main-container .container .card .card-body {
+  height: 50%;
+}
+
+#main-container .container .card .card-body .card-title a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-container .main-title {
+  text-shadow: 2px 2px 4px #6b2f2f;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Dancing Script", cursive !important;
+}
+
+#main-container #sort-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  color: #ced4da;
+  line-height: 0.5rem;
+}
+
+#main-container #sort-btn:focus {
+  /* Remove button outline on focus*/
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#main-container .row {
+  color: #fff;
+  background-color: #343a40;
+}
+
+#main-container .row .my-movie-card-container .my-movie-card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+#main-container .row .my-movie-card-container .my-movie-card .my-movie-col-md-5 {
+  background-color: #000;
+}
+
+#main-container .row .my-movie-card-container .my-movie-card a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+#main-container .row .my-movie-card-container .my-movie-card span {
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  border-radius: 30px;
+  background-color: #ffc400;
+  color: #000;
+  text-align: center;
+  font-size: 1em;
+  display: inline-block;
+}
+
+#main-container .row .my-movie-card-container .my-movie-card i {
+  color: #ffc400;
+}
+
+#main-container .row .my-movie-card-container .my-movie-card .my-movie-card-body {
+  position: relative;
+  color: #fff;
+  background-color: #000;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+#main-container .row .my-movie-card-container .my-movie-card .card-text {
+  font-size: 0.875rem;
+}
+/*# sourceMappingURL=product-list.component.css.map */

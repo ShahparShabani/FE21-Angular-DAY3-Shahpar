@@ -1,0 +1,17 @@
+@import "../../assets/css/variables";
+
+.card {
+  margin: auto;
+  color: $white !important;
+  background-color: $gray-900 !important;
+
+  img {
+    height: 50%;
+    object-fit: contain;
+  }
+  .card-bdy {
+    height: 50%;
+
+   
+  }
+}

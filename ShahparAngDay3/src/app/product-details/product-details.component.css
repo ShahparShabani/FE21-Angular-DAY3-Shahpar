@@ -1,0 +1,22 @@
+/** Color Palette **/
+/* Basic colors*/
+/* gray */
+/* Yellow */
+/* Amber */
+/* Orange */
+.card {
+  margin: auto;
+  color: #fff !important;
+  background-color: #212529 !important;
+}
+
+.card img {
+  height: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.card .card-bdy {
+  height: 50%;
+}
+/*# sourceMappingURL=product-details.component.css.map */

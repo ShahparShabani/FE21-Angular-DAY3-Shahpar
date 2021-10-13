@@ -1,0 +1,102 @@
+@import "../../assets/css/variables";
+  
+  #main-container {
+    .container {
+      color: $white !important;
+      background-color: $gray-800 !important;
+
+      .card {
+        color: $white !important;
+        background-color: $gray-900 !important;
+
+        img {
+            height: 50%;
+            object-fit: contain;
+        }
+        .card-body{
+            height: 50%;
+        .card-title {
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+        
+        }
+    }
+    }
+  
+    .main-title {
+      text-shadow: 2px 2px 4px #6b2f2f;
+      font-size: 4rem;
+      font-weight: 600;
+      font-family: "Dancing Script", cursive !important;
+    }
+  
+    #sort-btn {
+      display: block;
+      margin-left: auto;
+      margin-right: 0;
+      color: $gray-400;
+      line-height: 0.5rem;
+    }
+  
+    #sort-btn:focus {
+      /* Remove button outline on focus*/
+      box-shadow: none;
+    }
+  
+    .row {
+      color: $white;
+      background-color: $gray-800;
+  
+      .my-movie-card-container {
+        .my-movie-card {
+          box-sizing: border-box;
+          flex-wrap: wrap;
+          margin: 0 auto;
+          background-color: $black;
+  
+          .my-movie-col-md-5 {
+            background-color: $black;
+          }
+  
+          a {
+            text-decoration: none;
+            cursor: pointer;
+            color: $white;
+          }
+  
+          span {
+            height: 2rem;
+            width: 2rem;
+            line-height: 2rem;
+            border-radius: 30px;
+            background-color: $amber-a400;
+            color: $black;
+            text-align: center;
+            font-size: 1em;
+            display: inline-block;
+          }
+  
+          i {
+            color: $amber-a400;
+          }
+  
+          .my-movie-card-body {
+            position: relative;
+            color: $white;
+            background-color: $black;
+            display: flex !important;
+            flex-direction: column !important;
+          }
+  
+          .card-text {
+            font-size: 0.875rem;
+          }  
+          
+        }
+      }
+    }
+  
+  }

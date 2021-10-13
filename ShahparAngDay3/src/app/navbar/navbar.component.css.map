@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,qBAAqB;AAErB,iBAAiB;AAIjB,UAAU;AAWV,YAAY;AAIZ,WAAW;AAKX,YAAY",
+    "sources": [
+        "navbar.component.scss",
+        "../../assets/css/_variables.scss"
+    ],
+    "names": [],
+    "file": "navbar.component.css"
+}

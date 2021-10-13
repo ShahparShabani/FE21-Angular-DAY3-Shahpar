@@ -10,10 +10,12 @@ export class CartService {
 
   addToCart(product: any) {
     this.items.push(product);
+    console.log('product' + product)
   }
 
   getItems() {
     return this.items;
+    console.log('items' + this.items)
   }
 
   clearCart() {

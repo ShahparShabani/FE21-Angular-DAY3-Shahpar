@@ -12,7 +12,7 @@ export class ProductListComponent implements OnInit {
   constructor(private cartService: CartService) { }
 
   ngOnInit() {
-    console.log('items are:' + this.cartService.items[0])
+    console.log('items are:' + this.cartService.getItems())
   }
 
 }

@@ -15,7 +15,6 @@ export class CartService {
 
   getItems() {
     return this.items;
-    console.log('items' + this.items)
   }
 
   clearCart() {

@@ -10,7 +10,8 @@ export class CartService {
 
   addToCart(product: any) {
     this.items.push(product);
-    console.log('product' + product)
+    // console.log('product' + JSON.stringify(product))
+    // console.log('service items' + JSON.stringify(this.items))
   }
 
   getItems() {

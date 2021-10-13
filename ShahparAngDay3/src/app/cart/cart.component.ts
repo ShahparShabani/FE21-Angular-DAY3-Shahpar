@@ -10,7 +10,7 @@ import { Form, FormBuilder } from '@angular/forms';
 export class CartComponent implements OnInit {
 
   items: any;
-  checkoutForm;
+  checkoutForm : any;
   constructor(private cartService: CartService, private formBuilder: FormBuilder) {
     this.checkoutForm = this.formBuilder.group({
       name: '',
@@ -19,10 +19,11 @@ export class CartComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log('cart: ' + JSON.stringify(this.items));
     this.items = this.cartService.getItems();
   }
 
-  onSubmit(customerData) {
+  onSubmit(customerData : any) {
     // Process checkout data here
     console.warn('Your order has been submitted', customerData);
 
